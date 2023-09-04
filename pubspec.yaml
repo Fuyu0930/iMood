@@ -1,0 +1,96 @@
+name: imood
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  assets_audio_player: ^2.0.14
+  percent_indicator: ^2.1.9+1
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  fl_chart: ^0.12.0
+  youtube_player_flutter: ^8.1.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/audio/forest.mp3
+     - assets/audio/sea.mp3
+     - assets/audio/beautiful.mp3
+     - assets/audio/1.mp3
+     - assets/audio/2.mp3
+     - assets/audio/3.mp3
+     - assets/audio/4.mp3
+     - assets/audio/5.mp3
+     - assets/audio/6.mp3
+     - assets/audio/7.mp3
+     - assets/audio/8.mp3
+     - assets/audio/9.mp3
+     - assets/images/forest_wallpaper.jpg
+     - assets/images/vintage.jpg
+     - assets/images/sea.jpg
+     - assets/images/Bar.png
+     - assets/images/new york.jpg
+     - assets/images/Edinburgh.jpg
+     - assets/images/focus.jpg
+     - assets/images/relaxation.jpg
+     - assets/images/vipassana.jpg
+     - assets/images/rain_wallpaper.jpg
+     - assets/images/paris_wallpaper.jpg
+     - assets/images/yoga_wallpaper.jpg
+     - assets/images/ikun.png
+     
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: SourceSansPro
+      fonts:
+        - asset: assets/fonts/SourceSansPro-Regular.ttf
+    - family: CrimsonText
+      fonts:
+        - asset: assets/fonts/CrimsonText-Regular.ttf
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans-VariableFont_wght.ttf
+    - family: PTSans
+      fonts:
+        - asset: assets/fonts/PTSans-Bold.ttf
+    - family: IBMPlexSerif
+      fonts:
+        - asset: assets/fonts/IBMPlexSerif-Medium.ttf
